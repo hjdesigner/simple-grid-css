@@ -27,7 +27,7 @@ gulp.task('clean', function(){
             .pipe(clean());
 });
 gulp.task('sass', function(){
- return gulp.src(config.srcPath+'sass/grid.+(scss|sass)')
+ return gulp.src([config.srcPath+'sass/grid.+(scss|sass)', config.srcPath+'sass/layout-site.+(scss|sass)'])
             .pipe(sourcemaps.init())
             .pipe(sass({
              outputStyle: 'compressed'

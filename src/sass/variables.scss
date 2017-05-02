@@ -2,8 +2,13 @@
 $grid-columns: 12;
 $padding-columns: .25rem;
 
-$breakpoint-mobile: 576px;
-$breakpoint-tablet: 768px;
-$breakpoint-desktop: 1000px;
-$breakpoint-large-desktop: 1200px;
-$breakpoint-full-hd: 1440px;
+//576px
+$breakpoint-mobile: 36em;
+//768px
+$breakpoint-tablet: 48em;
+//1000px
+$breakpoint-desktop: 62.5em;
+//1200px
+$breakpoint-large-desktop: 75em;
+//1440px
+$breakpoint-full-hd: 90em;
