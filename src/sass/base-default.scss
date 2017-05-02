@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body{
+ font-size: 100%;
+ font-family: 'Roboto', sans-serif;
+}
+[class*="column"]{
+ span {
+  display: block;
+  background: #00d1b2;
+  padding: 1em 0;
+  text-align: center;
+  color: #FFF;
+   &.code-css{
+    background-color: transparent;
+    display: inline-block;
+    padding: initial;
+    text-align: left;
+    color: red;
+   }
+ }
+}
+header{
+ width: 100%;
+ height: auto;
+ display: inline-block;
+ background-color: #9400FF;
+ padding: 20px 0;
+  h1{
+   width: 100%;
+   height: auto;
+   float: left;
+   margin: 0;
+   text-align: left;
+   color: #FFF;
+   font-size: 1.5em;
+   font-weight: 500;
+  }
+  [class*="column"]{
+   span{
+     color: #FFF;
+     font-size: .7em;
+     font-weight: 300;
+     display: inline-block;
+     padding: initial;
+     background-color: transparent;
+     strong{
+      font-weight: 400;
+     }
+   }
+  }  
+}
+.text-information{
+ margin: 20px 0;
+ padding: 20px !important;
+ background-color: #f7f5f5;
+ border: 1px solid #e4e1e1;
+}
+h2{
+ width: 100%;
+ height: auto;
+ float: left;
+ margin: 0 0 10px;
+ color: #000;
+ font-size: 1em;
+ font-weight: 500;
+}
+p{
+ width: 100%;
+ height: auto;
+ float: left;
+ margin: 5px 0;
+ color: #4a4a4a;
+ font-size: .9em;
+ font-weight: 500;
+}
+.btns{
+ margin: 0 auto;
+ float: initial !important;
+}
+.btn__github { 
+ margin: 0 auto;
+ float: initial !important;
+  a{
+   width: 100%;
+   height: 50px;
+   float: left;
+   position: relative;
+   background-color: #d8d6d6;
+   text-align: center;
+   line-height: 50px;
+   font-weight: 500;
+   color: #999;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 1em;
+   transition: all .25s ease-in-out;
+    span{
+      background-color: transparent;
+      color: #999;
+      padding: initial;
+      display: inline-block;
+      font-size: .5em;
+      width: 100%;
+      height: 10px;
+      line-height: 10px;
+      bottom: 6px;
+      left: 0;
+      position: absolute;
+      font-weight: 600;
+      transition: all .25s ease-in-out;
+    }
+    &:hover{
+     color: #FFF;
+     background-color: #000;
+      span{
+       color: #FFF;
+      }
+    }
+  }
+}
+.redes-sociais{
+ margin: 0 auto;
+ float: initial !important;
+  .facebook,
+  .twitter{
+   text-align: center;
+  }
+}
+footer{
+ width: 100%;
+ height: auto;
+ display: inline-block;
+ background-color: #1c1d21;
+ padding: 10px 0;
+ margin-top: 30px;
+  p{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1em;
+     .heart{
+      position: relative;
+      display: inline;
+      margin-left: 7px;
+       &:before, 
+       &:after {
+         width: 10px;
+         height: 17px;
+         position: absolute;
+         top: 3px;
+         left: 9px;
+         content: "";
+         background: #FF0000;
+         border-radius: 50px 50px 0 0;
+         transform: rotate(-45deg);
+         transform-origin: 0 100%;
+       }
+       &:after {
+         left: 0;
+         transform: rotate(45deg);
+         transform-origin: 100% 100%;
+      }
+     }
+  }
+}

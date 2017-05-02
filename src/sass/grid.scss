@@ -1,0 +1,92 @@
+@import "base-default";
+@import "variables";
+@import "mixin";
+@import "base";
+
+.container,
+.row{
+ @include border-box;
+ @extend %clearfix;
+}
+.row {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+[class*="column"]{
+ float: left;
+ padding: $padding-columns;
+ min-height: 1px; 
+}
+@for $i from 1 through $grid-columns { 
+ .column-#{$i}{
+   width: 100%;
+  }
+ }
+@media only screen and(max-width: $breakpoint-mobile){
+ .container{
+  width: 540px;
+  max-width: 100%;
+ }
+ @for $i from 1 through $grid-columns { 
+ .column__mobile-#{$i}{
+   width: 100% / 12 * $i;
+  }
+ }
+}
+@media only screen and(min-width: $breakpoint-tablet){
+ .container{
+  width: 720px;
+  max-width: 100%;
+ }
+ @for $i from 1 through $grid-columns { 
+ .column-#{$i}{
+   width: 100% / 12 * $i;
+  }
+ }
+ @for $i from 1 through $grid-columns { 
+ .column__tablet-#{$i}{
+   width: 100% / 12 * $i;
+  }
+ }
+}
+@media only screen and(min-width: $breakpoint-desktop){
+ .container{
+  width: 960px;
+  max-width: 100%;
+ }
+ @for $i from 1 through $grid-columns { 
+ .column__desktop-#{$i}{
+   width: 100% / 12 * $i;
+  }
+ }
+}
+@media only screen and(min-width: $breakpoint-large-desktop){
+ .container{
+  width: 1140px;
+  max-width: 100%;
+ }
+ @for $i from 1 through $grid-columns { 
+ .column__large-desktop-#{$i}{
+   width: 100% / 12 * $i;
+  }
+ }
+}
+@media only screen and(min-width: $breakpoint-full-hd){
+ .container{
+  width: 1140px;
+  max-width: 100%;
+ }
+ @for $i from 1 through $grid-columns { 
+ .column__full-hd-#{$i}{
+   width: 100% / 12 * $i;
+  }
+ }
+}

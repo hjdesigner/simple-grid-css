@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <meta property="og:url"           content="http://www.henriquemelanda.com.br/simple-grid-css" />
+ <meta property="og:type"          content="website" />
+ <meta property="og:title"         content="Simples Grid CSS" />
+ <meta property="og:description"   content="Uma maneira simples de criar colunas responsivas" />
+ <meta property="og:image"         content="./images/simple-grid-css.jpeg" />
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:site" content="@coisadedev">
+ <meta name="twitter:title" content="Simples Grid CSS">
+ <meta name="twitter:description" content="Uma maneira simples de criar colunas responsivas">
+ <meta property="twitter:image:src" content="./images/simple-grid-css.jpeg">
+ <title>Simples Grid CSS</title>
+ <link rel="stylesheet" href="./css/grid.css">
+</head>
+<body>
+ <header>
+  <div class="container">
+   <div class="column-7">
+    <h1>Simples Grid CSS <span>- Uma maneira simples de criar <strong>colunas responsivas</strong></span></h1>
+   </div>
+   <div class="column-5">
+    <div class="column-6 redes-sociais">
+     <div class="column-6 facebook">
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fwww.henriquemelanda.com.br%2Fsimple-grid-css&layout=button&size=large&mobile_iframe=true&appId=152175974873349&width=117&height=28" width="117" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+     </div>
+     <div class="column-6 twitter">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.henriquemelanda.com.br/simple-grid-css" data-via="coisadedev" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+     </div>
+    </div>      
+   </div>   
+  </div>  
+ </header>
+ 
+
+ <section class="container">
+  <div class="row">
+   <div class="column-12">
+    <div class="column-6 btns">
+     <div class="column-8 btn__github">
+      <div class="column-6">
+       <a href="https://github.com/hjdesigner/simple-grid-css">Github <span>v0.01</span></a>
+      </div>      
+      <div class="column-6">
+       <a href="simple-grid.zip">Download <span>v0.01</span></a>
+      </div>      
+     </div>     
+    </div>
+   </div>
+   <div class="text-information column-12">
+    <h2>Para adicionar o grid na sua pagina</h2>
+    <p>1. Faça o download e adicione os arquivos SASS ou o CSS no seu projeto</p>
+    <p>2. Adicione uma div com a class <span class="code-css">container</span></p>
+    <p>3. Dentro de <span class="code-css">container</span> adicione um div <span class="code-css">row</span></p>
+    <p>4. Dentro de <span class="code-css">row</span> adicione <span class="code-css">column-</span> de 1 a 12</p>
+   </div>      
+  </div>
+  
+  <div class="row">
+   <div class="column-1 column__mob-6"><span>1</span></div>
+   <div class="column-1 column__mob-6"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+   <div class="column-1"><span>1</span></div>
+  </div>
+  <div class="row">
+   <div class="column-2"><span>2</span></div>
+   <div class="column-2"><span>2</span></div>
+   <div class="column-2"><span>2</span></div>
+   <div class="column-2"><span>2</span></div>
+   <div class="column-2"><span>2</span></div>
+   <div class="column-2"><span>2</span></div>
+  </div>
+  <div class="row">
+   <div class="column-3"><span>3</span></div>
+   <div class="column-3"><span>3</span></div>
+   <div class="column-3"><span>3</span></div>
+   <div class="column-3"><span>3</span></div>
+  </div>
+  <div class="row">
+   <div class="column-4"><span>4</span></div>
+   <div class="column-4"><span>4</span></div>
+   <div class="column-4"><span>4</span></div>
+  </div>
+  <div class="row">
+   <div class="column-5"><span>5</span></div>
+   <div class="column-5"><span>5</span></div>
+   <div class="column-2"><span>2</span></div>
+  </div>
+  <div class="row">
+   <div class="column-6"><span>6</span></div>
+   <div class="column-6"><span>6</span></div>
+  </div>
+  <div class="row">
+   <div class="column-12"><span>12</span></div>
+  </div>
+  <div class="row">
+   <div class="column-6">
+    <div class="column-6"><span>6</span></div>
+    <div class="column-6"><span>6</span></div>
+    <div class="column-12"><span>12</span></div>
+   </div>
+   <div class="column-6">
+    <div class="column-12"><span>12</span></div>
+    <div class="column-12"><span>12</span></div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="text-information column-12">
+    <h2>Se você quiser modificar as colunas para alterar quando for celular, tablet, desktop ou desktop full HD</h2>
+    <p>Mobile <= 576 <span class="code-css">column__mobile-</span> de 1 a 12</p>
+    <p>Tablet >= 768 <span class="code-css">column__tablet-</span> de 1 a 12</p>
+    <p>Desktop >= 1000 <span class="code-css">column__desktop-</span> de 1 a 12</p>
+    <p>Large Desktop >= 1200 <span class="code-css">column__large-desktop-</span> de 1 a 12</p>
+    <p>Full HD >= 1440 <span class="code-css">column__full-hd-</span> de 1 a 12</p>
+   </div>
+  </div>
+  <div class="row">
+   <div class="column__mobile-2 column__tablet-12 column__desktop-6"><span>Mobile 2 / Tablet 12 / Desktop 6</span></div>
+   <div class="column__mobile-2 column__tablet-12 column__desktop-6"><span>Mobile 2 / Tablet 12 / Desktop 6</span></div>
+  </div>
+  <div class="row">
+   <div class="column__mobile-6 column__tablet-6 column__desktop-4"><span>Mobile 6 / Tablet 6 / Desktop 4</span></div>
+   <div class="column__mobile-6 column__tablet-6 column__desktop-4"><span>Mobile 6 / Tablet 6 / Desktop 4</span></div>
+   <div class="column__mobile-6 column__tablet-6 column__desktop-4"><span>Mobile 6 / Tablet 6 / Desktop 4</span></div>
+  </div>
+  <div class="row">
+   <div class="column__mobile-3 column__tablet-4 column__desktop-2  column__large_desktop-2 column__full-hd-6"><span>Mobile 3 / Tablet 4 / Desktop 2 / Large Desktop 2 / Full HD 6</span></div>
+   <div class="column__mobile-3 column__tablet-4 column__desktop-2  column__large_desktop-2 column__full-hd-6"><span>Mobile 3 / Tablet 4 / Desktop 2 / Large Desktop 2 / Full HD 6</span></div>
+   <div class="column__mobile-3 column__tablet-4 column__desktop-2  column__large_desktop-2 column__full-hd-6"><span>Mobile 3 / Tablet 4 / Desktop 2 / Large Desktop 2 / Full HD 6</span></div>
+   <div class="column__mobile-3 column__tablet-4 column__desktop-2  column__large_desktop-2 column__full-hd-6"><span>Mobile 3 / Tablet 4 / Desktop 2 / Large Desktop 2 / Full HD 6</span></div>
+   <div class="column__mobile-3 column__tablet-4 column__desktop-2  column__large_desktop-2 column__full-hd-6"><span>Mobile 3 / Tablet 4 / Desktop 2 / Large Desktop 2 / Full HD 6</span></div>
+   <div class="column__mobile-3 column__tablet-4 column__desktop-2  column__large_desktop-2 column__full-hd-6"><span>Mobile 3 / Tablet 4 / Desktop 2 / Large Desktop 2 / Full HD 6</span></div>
+  </div>
+ </section>
+
+ <footer>
+  <div class="container">
+   <p>Projeto Open Source feito com muito amor <span class="heart"></span></p>
+  </div>
+ </footer>
+</body>
+</html>
