@@ -1,4 +1,4 @@
-# Simple Grid CSS
+# Simples Grid CSS
 
 >  Uma maneira simples de criar colunas responsivas
 
