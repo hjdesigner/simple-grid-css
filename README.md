@@ -2,6 +2,10 @@
 
 >  Uma maneira simples de criar colunas responsivas
 
+# Link para download do grid
+
+[http://henriquemelanda.com.br/simple-grid-css/simple-grid.zip](Clique aqui e faça o download  da versão SASS e CSS do Grid)
+
 ## Para adicionar o grid na sua pagina
 
 * Faça o download e adicione os arquivos SASS ou o CSS no seu projeto
