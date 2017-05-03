@@ -9,6 +9,13 @@
 * Dentro de container adicione um div row
 * Dentro de row adicione column- de 1 a 12
 
+## Para adicionar o grid com a largura total na sua pagina
+
+* Faça o download e adicione os arquivos SASS ou o CSS no seu projeto
+* Adicione uma div com a class container-fluid
+* Dentro de container-fluid adicione um div row
+* Dentro de row adicione column- de 1 a 12
+
 ## Se você quiser modificar as colunas para alterar quando for celular, tablet, desktop ou desktop full HD
 
 * Mobile <= 576 column__mobile- de 1 a 12
