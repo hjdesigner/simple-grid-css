@@ -4,7 +4,7 @@
 
 # Link para download do grid
 
-[http://henriquemelanda.com.br/simple-grid-css/simple-grid.zip](Clique aqui e faça o download  da versão SASS e CSS do Grid)
+[Clique aqui e faça o download  da versão SASS e CSS do Grid](http://henriquemelanda.com.br/simple-grid-css/simple-grid.zip)
 
 ## Para adicionar o grid na sua pagina
 
