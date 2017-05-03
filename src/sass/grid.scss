@@ -7,6 +7,12 @@
  @include border-box;
  @extend %clearfix;
 }
+.container-fluid{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .row {
   width: 100%;
   height: auto;
